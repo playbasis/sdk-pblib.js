@@ -62,14 +62,6 @@ window.onload = function () {
         console.log("pb.badge");
         console.log(result);
     });
-    pb.badgeCollections(function (result) {
-        console.log("pb.badgeCollections");
-        console.log(result);
-    });
-    pb.badgeCollection('1', function (result) {
-        console.log("pb.badgeCollection");
-        console.log(result);
-    });
     pb.actionConfig(function (result) {
         console.log("pb.actionConfig");
         console.log(result);

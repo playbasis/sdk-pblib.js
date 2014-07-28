@@ -34,12 +34,6 @@ var Playbasis = (function () {
     Playbasis.prototype.badge = function (badgeId, callback) {
         return this.call("Badge/" + badgeId, callback);
     };
-    Playbasis.prototype.badgeCollections = function (callback) {
-        return this.call("Badge/collection", callback);
-    };
-    Playbasis.prototype.badgeCollection = function (collectionId, callback) {
-        return this.call("Badge/collection/" + collectionId, callback);
-    };
     Playbasis.prototype.actionConfig = function (callback) {
         return this.call("Engine/actionConfig", callback);
     };
